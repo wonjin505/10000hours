@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+.br-none {
+    display: none;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+}
+
+body {
+    background-color: #5B2386;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 120px;
+}
+@media screen and (max-width: 450px) {
+    body {
+        gap: 50px;
+    }
+}
+
+.div1 {
+    position: relative;
+    margin-top: 120px;
+}
+
+.div1 img:first-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 564px;
+    height: 112px;
+}
+
+@media screen and (max-width: 450px) {
+    .div1 img:first-child {
+        width: 267px;
+        height: 53px;
+    }
+}
+
+.div1 img:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 261px;
+    height: 265px;
+}
+
+@media screen and (max-width: 450px) {
+    .div1 img:last-child {
+        width: 125px;
+        height: 126px;
+    }
+}
+
+.div2 p {
+    margin-top: 0px;
+    color: #F5DF4D;
+    font-size: 36px;
+    font-family: 'OTEnjoystoriesBA';
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 450px) {
+    .div2 p {
+        font-size: 22px;
+    }
+}
+
+.div3 {
+    position: relative;
+}
+
+.ppp {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media screen and (max-width: 450px) {
+    .ppp {
+        font-size: 14px;
+        gap: 5px;
+    }
+}
+
+.div3 img {
+    margin-top: 50px;
+    position: absolute;
+    width: 493px;
+    height: 35px;
+}
+
+@media screen and (max-width: 450px) {
+    .div3 img {
+        width: 302px;
+        height: 24px;
+        margin-left: -5px;
+    }
+}
+
+.p1 {
+    font-size: 24px;
+    font-family: 'GmarketSansMedium';
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div3 .p1 span {
+    font-family: 'GmarketSansBold';
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.div4 .pp {
+    font-size: 24px;
+    font-family: 'GmarketSansMedium';
+    line-height: 100px;
+}
+
+@media screen and (max-width: 450px) {
+
+    .p1,
+    .div3 .p1 span,
+    .div4 .pp {
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .pp {
+        /* line-height: 0px; */
+    }
+
+    .br-none {
+        display: inline;
+    }
+
+    .pp input::placeholder {
+        font-size: 14px;
+    }
+}
+
+.pp input {
+    width: 228px;
+    height: 57px;
+    border: white solid;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 450px) {
+    .pp input {
+        width: 156px;
+        height: 37px;
+
+    }
+}
+
+input::placeholder {
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    font-size: 24px
+}
+
+@media screen and (max-width: 450px) {
+    .pp {
+        line-height: 40px;
+
+    }
+}
+
+.div5 {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 5px;
+}
+
+.div5 button {
+    width: 565px;
+    height: 66px;
+    background-color: #FCEE21;
+    border: #FCEE21 solid;
+    border-radius: 13px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: #5B2386;
+    font-family: 'GmarketSansBold';
+    font-size: 24px
+}
+
+@media screen and (max-width: 450px) {
+    .div5 button {
+        width: 241px;
+        height: 68px;
+        font-size: 14px;
+    }
+
+}
+
+.div5 img {
+    margin-top: 30px;
+    width: 43px;
+    height: 48px;
+}
+
+.div6 p {
+    font-family: 'GmarketSansMedium';
+    line-height: 80px;
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .div6 p {
+        line-height: 40px;
+    }
+
+}
+
+.div6 span {
+    font-family: 'GmarketSansBold';
+    font-size: 72px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 450px) {
+    .div6 span {
+        font-size: 24px;
+    }
+
+}
+
+.div7 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.div7 button {
+    color: #5B2386;
+    font-family: 'GmarketSansBold';
+}
+
+.div7 :first-child {
+    width: 356px;
+    height: 66px;
+    background-color: #FCEE21;
+    border: #FCEE21 solid;
+    border-radius: 56px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 450px) {
+    .div7 :first-child {
+        width: 186px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+}
+
+.div7 :last-child {
+
+    width: 191px;
+    height: 66px;
+    background-color: #fff;
+    border: #fff solid;
+    border-radius: 56px;
+    font-size: 24px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+@media screen and (max-width: 450px) {
+    .div7 :last-child {
+        width: 92px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+}
+
+.div8 .logo {
+    width: 125px;
+    height: 25px;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 450px) {
+    .div8 .logo {
+        width: 91px;
+        height: 18px;
+        font-size: 14px;
+    }
+
+}
+
+.div8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.p2 {
+    font-size: 12px;
+    font-family: 'Noto Sans KR';
+    line-height: 15px;
+}
+
+@media screen and (max-width: 450px) {
+    .p2 {
+        font-size: 9px;
+    }
+
+}
+
+.div8 div {
+    margin-bottom: 20px;
+}
